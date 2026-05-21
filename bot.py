@@ -15,7 +15,7 @@ PRODUCTS = {
     "3": {"name": "Basic", "price": 10000},
 }
 
-   async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
+async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     keyboard = "1️⃣ Premium - 50,000 so'm\n2️⃣ Standard - 30,000 so'm\n3️⃣ Basic - 10,000 so'm"
     await update.message.reply_text(f"Salom! 👋\n\nQaysi paketni tanlaysiz?\n\n{keyboard}")
     return QUANTITY
