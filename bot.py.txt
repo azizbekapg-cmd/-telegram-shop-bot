@@ -7,10 +7,10 @@ START, PRODUCT_CODE, PAYMENT_CONFIRMATION, RECEIPT_PHOTO, SIZE = range(5)
 
 # Product database (code: price)
 PRODUCTS = {
-    "001": 250000,
-    "002": 180000,
-    "003": 130000,
-    "004": 220000,
+    "001": 150000,
+    "002": 200000,
+    "003": 250000,
+    "004": 300000,
 }
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
